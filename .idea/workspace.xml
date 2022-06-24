@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85552554-f5b1-4eac-9c2c-54e7ea46a3bc" name="Changes" comment="Updated yaml file">
+    <list default="true" id="85552554-f5b1-4eac-9c2c-54e7ea46a3bc" name="Changes" comment="Updated yaml file again x2">
       <change beforePath="$PROJECT_DIR$/.github/workflows/develop-pull-analyze.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/develop-pull-analyze.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656074529318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated yaml file again">
+      <created>1656074811108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656074811108</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated yaml file again x2">
+      <created>1656074882287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656074882287</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added yaml file" />
     <MESSAGE value="Updated yaml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated yaml file" />
+    <MESSAGE value="Updated yaml file again" />
+    <MESSAGE value="Updated yaml file again x2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated yaml file again x2" />
   </component>
 </project>
