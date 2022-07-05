@@ -3,41 +3,41 @@ name: Build and test
 on:
   pull_request:
     branches:
-    - develop
+      - develop
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repository code
+      - name: Check out repository code
         uses: actions/checkout@v3
 
-    - name: Setup Java 17
+      - name: Setup Java 17
         uses: actions/setup-java@v3
         with:
-        distribution: temurin
-        java-version: 17
+          distribution: temurin
+          java-version: 17
 
-    - name: Setup Gradle
+      - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-    - name: Build
+      - name: Build
         run: ./gradlew build
 
   test:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repository code
+      - name: Check out repository code
         uses: actions/checkout@v3
 
-    - name: Setup Java 17
+      - name: Setup Java 17
         uses: actions/setup-java@v3
         with:
-        distribution: temurin
-        java-version: 17
+          distribution: temurin
+          java-version: 17
 
-    - name: Setup Gradle
+      - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-    - name: Test
+      - name: Test
         run: ./gradlew test
